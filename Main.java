@@ -12,5 +12,6 @@ public class Main {
         lexer.printTokens(tokens);
         ast.printAST();
         System.out.println("Interpreted: "+interpreter.interpret());
+        sc.close();
     }
 }
